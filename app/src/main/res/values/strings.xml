@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">VorobevSpinit</string>
     <string name="registration_header_string">Лол</string>
+    <string name="passwordConfirm">Подтверждение пароля</string>
+    <string name="password">Пароль</string>
+    <string name="secondName">Фамилия</string>
+    <string name="firstName">Имя</string>
+    <string name="email">Email</string>
+    <string name="regButtonText">Регистрация</string>
+    <string name="loginText">Уже есть аккаунт? Войти</string>
 </resources>
