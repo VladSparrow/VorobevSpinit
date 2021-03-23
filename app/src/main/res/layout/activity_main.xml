@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
-    tools:context=".MainActivity">
-
+    tools:context=".MainActivity"
+    android:padding="16dp">
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/passwordConfirmInputLayout"
         android:layout_width="match_parent"
@@ -23,6 +22,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/twotone_lock_open_24"
             android:importantForAutofill="no"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -43,6 +43,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/baseline_lock_24"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -81,8 +82,9 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:autofillHints="" />
+            android:autofillHints=""
+            android:drawableEnd="@drawable/outline_person_24"
+            android:inputType="textPersonName" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -117,6 +119,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/baseline_email_24"
             android:inputType="textWebEmailAddress" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -126,7 +129,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/regButtonText"
+        android:text="@string/regButtonString"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@color/black"
         android:textStyle="bold"

@@ -6,6 +6,9 @@
     <string name="secondName">Фамилия</string>
     <string name="firstName">Имя</string>
     <string name="email">Email</string>
-    <string name="regButtonText">Регистрация</string>
+    <string name="regButtonString">Регистрация</string>
     <string name="loginText">Уже есть аккаунт? Войти</string>
+    <string name="loginButtonString">Войти</string>
+    <string name="login_header_text">Кек</string>
+    <string name="signup_text">Нет аккаунта? Зарегайся!</string>
 </resources>
